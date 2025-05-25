@@ -16,7 +16,7 @@ To install the essential libraries, open your terminal or command prompt and run
 ##### • By: Used to locate elements on a web page using various strategies (e.g., by XPath, CSS selector, ID).
 ##### • WebDriverWait: Allows your script to pause execution until a specific condition is met on the web page, which is crucial for handling dynamically loaded content.
 ##### • expected_conditions as EC: Contains a set of common conditions used with WebDriverWait (e.g., waiting for an element to be clickable or visible).
-##### • TimeoutException, ElementClickInterceptedException, StaleElementReferenceException: These are specific exceptions caught by your script to handle common issues that arise    during web automation, making your scraper more robust.
-##### • time: A standard Python library used for adding delays in your script (time.sleep()). These delays can be important for allowing web page elements to load fully or to mimic more human-like Browse behavior.
-##### • json: A standard Python library for working with JSON (JavaScript Object Notation) data. Your script uses this to save the scraped project details into a human-readable dnd machine-parseable .json file.
-##### • csv: A standard Python library for handling CSV (Comma Separated Values) files. Your script utilizes this to export the scraped data into a .csv format, which is easily      opened and analysed.
+##### • TimeoutException, ElementClickInterceptedException, StaleElementReferenceException: These are specific exceptions caught by your script to handle common issues that          arise during web automation, making your scraper more robust.
+##### • time: A standard Python library used for adding delays in your script (time.sleep()). These delays can be important for allowing web page elements to load fully or           to mimic more human-like Browse behavior.
+##### • json: A standard Python library for working with JSON (JavaScript Object Notation) data. Your script uses this to save the scraped project details into a human-              readable dnd machine-parseable .json file.
+##### • csv: A standard Python library for handling CSV (Comma Separated Values) files. Your script utilizes this to export the scraped data into a .csv format, which is             easily opened and analysed.
