@@ -1,6 +1,6 @@
-### Selenium Web Scraping Project: Python Dependencies and Installation Guide
+# Selenium Web Scraping Project: Python Dependencies and Installation Guide
 This document outlines the Python libraries required for your Selenium web scraping project and provides the necessary installation commands.
-Installation Commands
+##Installation Commands
 To install the essential libraries, open your terminal or command prompt and run the following commands:
 • Selenium: This is the core library for browser automation.
   #pip install selenium
