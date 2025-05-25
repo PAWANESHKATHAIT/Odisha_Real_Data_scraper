@@ -11,7 +11,7 @@ To install the essential libraries, open your terminal or command prompt and run
 ### Note on ChromeDriver: In addition to the Python libraries, you'll need Google Chrome installed on your system and the appropriate ChromeDriver executable. Selenium uses ChromeDriver to control the Chrome browser. Your script assumes chromedriver is in your system's PATH. If it's not, you'll need to download it manually from the official ChromeDriver website and either place it in a directory included in your system's PATH or specify its location directly in the webdriver.Chrome() call within your code.
 
 ### Explanation of Libraries Used
-• selenium: This powerful library enables your script to automate web browsers.
+##### • selenium: This powerful library enables your script to automate web browsers.
 • webdriver: Provides the interface to control web browsers like Chrome.
 • By: Used to locate elements on a web page using various strategies (e.g., by XPath, CSS selector, ID).
 • WebDriverWait: Allows your script to pause execution until a specific condition is met on the web page, which is crucial for handling dynamically loaded content.
